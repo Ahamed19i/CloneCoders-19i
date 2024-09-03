@@ -1,0 +1,30 @@
+* {
+    color: #ffffff;
+}
+body {
+    background: rgb(44, 38, 76);
+}
+
+.box {
+    text-align: center;
+}
+
+.card-user {
+    background-color: gray; 
+    padding: 15px;
+    border-radius: 15 px;
+    box-shadow: 0 0 20px rgb(0, 0, 0, 0, 2);
+    margin-top: 1px;
+    padding-top: 0px;
+    padding-bottom: 8px;
+    
+}
+.card-user .hobby {
+    color: rgb(102, 100, 100);
+    padding: 4px;
+    background-color: rgb(221, 224, 227);
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 15px;
+    text-align: center;
+}
