@@ -6,7 +6,10 @@ import MonParcours from './pages/MonParcours';
 import Blog from './pages/Blog';
 import About from './pages/About';
 import Portfolio from './pages/Portfolio';
+import './global.css'
 import './App.css'
+import Footer from './components/Footer';
+
 
 const App = () => {
   return (
@@ -23,6 +26,9 @@ const App = () => {
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/about" element={<About />} />
         </Routes>
+        
+        <Footer />
+         
       </div>
     </Router>
   );

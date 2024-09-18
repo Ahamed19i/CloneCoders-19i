@@ -1,8 +1,10 @@
 * {
     color: #ffffff;
+    
 }
 body {
     background: rgb(44, 38, 76);
+    
 }
 
 .box {
@@ -28,3 +30,5 @@ body {
     margin-top: 15px;
     text-align: center;
 }
+
+
