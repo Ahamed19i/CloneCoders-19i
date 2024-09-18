@@ -10,15 +10,15 @@ const Footer = () => {
             <div className="footer-container">
                 {/* À propos de nous */}
                 <div className="footer-section about">
-                    <h4>About Us</h4>
+                    <h4>Qui sommes-nous</h4>
                     <p>
-                        Ahamed Hassani M'homa is a passionate web developer with expertise in building professional websites. Based in the Comoros, Ahamed brings creativity and technical excellence to every project.
+                        Ahamed Hassani M’homa est un étudiant en développement web passionné dans la création des applications web professionnelles. Basé au Sénégal, Ahamed apporte créativité et excellence technique à chaque projet.
                     </p>
                 </div>
 
                 {/* Liens rapides */}
                 <div className="footer-section links">
-                    <h4>Quick Links</h4>
+                    <h4>Liens rapides</h4>
                     <ul>
                         <li><a href="#about">About</a></li>
                         <li><a href="#portfolio">Portfolio</a></li>
@@ -29,7 +29,7 @@ const Footer = () => {
 
                 {/* Suivez-nous */}
                 <div className="footer-section social">
-                    <h4>Follow Us</h4>
+                    <h4>Suivez-nous</h4>
                     <div className="social-links">
                         <a href="https://www.linkedin.com/in/votreprofil" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
                         <a href="https://github.com/votreprofil" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
@@ -42,15 +42,15 @@ const Footer = () => {
                 <div className="footer-section newsletter">
                     <h4>Newsletter</h4>
                     <form>
-                        <input type="email" placeholder="Enter your email" />
-                        <button type="submit">Subscribe</button>
+                        <input type="email" placeholder="Entrer votre email" />
+                        <button type="submit">S'inscrire</button>
                     </form>
                 </div>
             </div>
             
             {/* Copyright */}
             <div className="footer-bottom">
-                <p>&copy; 2024 Ahamed Hassani M'homa. All rights reserved.</p>
+                <p>&copy; 2024 Ahamed Hassani M'homa. Tous droits réservés.</p>
             </div>
         </footer>
     );
