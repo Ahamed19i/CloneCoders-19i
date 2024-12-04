@@ -20,10 +20,10 @@ const Footer = () => {
                 <div className="footer-section links">
                     <h4>Liens rapides</h4>
                     <ul>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#portfolio">Portfolio</a></li>
-                        <li><a href="#blog">Blog</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="../pages/MonParcours.jsx">MonParcours</a></li>
+                        <li><a href="../pages/Blog.jsx">Blog</a></li>
+                        <li><a href="../pages/Portfolio.jsx">Portfolio</a></li> 
+                        <li><a href="../pages/Blog.jsx">Contact</a></li>
                     </ul>
                 </div>
 
@@ -31,10 +31,10 @@ const Footer = () => {
                 <div className="footer-section social">
                     <h4>Suivez-nous</h4>
                     <div className="social-links">
-                        <a href="https://www.linkedin.com/in/votreprofil" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
-                        <a href="https://github.com/votreprofil" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
-                        <a href="https://twitter.com/votreprofil" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
-                        <a href="https://instagram.com/votreprofil" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
+                        <a href="https://www.linkedin.com/in/ahamed-hassani-mhoma-36217732a/" target="_blank" rel="noopener noreferrer"><FaLinkedin /></a>
+                        <a href="https://github.com/Ahamed19i" target="_blank" rel="noopener noreferrer"><FaGithub /></a>
+                        <a href="https://twitter.com/Ahamed19i" target="_blank" rel="noopener noreferrer"><FaTwitter /></a>
+                        <a href="https://instagram.com/Ahamed19i" target="_blank" rel="noopener noreferrer"><FaInstagram /></a>
                     </div>
                 </div>
 
